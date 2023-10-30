@@ -23,13 +23,13 @@ Guidelines on how to use the project, examples, and any relevant information for
 
 ## Architecture Overview
 
-![Architecture Global](/path/to/Architecture_global.png)
+![Architecture Global](./Architecture_global.png)
 
 Briefly describe the global architecture of the project and its components.
 
 ## Technical Architecture
 
-![Technical Architecture](/path/to/technical_architecture.png)
+![Technical Architecture](./technical_architecture.png)
 
 Provide an overview of the technical architecture of the project, including key technologies, frameworks, and the interaction between different components.
 
