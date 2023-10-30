@@ -21,8 +21,4 @@ public class Wallet {
     private double solde;
     private Date created;
     private double devise;
-    /*private String source;
-    private String destination;
-    private double montanty;
-    private WalletEtat etat;*/
 }

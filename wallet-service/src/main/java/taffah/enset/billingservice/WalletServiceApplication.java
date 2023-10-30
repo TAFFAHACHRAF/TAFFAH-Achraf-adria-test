@@ -12,7 +12,7 @@ import java.util.Date;
 import java.util.UUID;
 
 @SpringBootApplication
-//@EnableConfigurationProperties(ConfigParams.class)
+@EnableConfigurationProperties(ConfigParams.class)
 public class WalletServiceApplication {
 
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-/*package taffah.enset.billingservice;
+package taffah.enset.billingservice;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -26,4 +26,3 @@ public class ConfigTestRestController {
         return configParams;
     }
 }
-*/
