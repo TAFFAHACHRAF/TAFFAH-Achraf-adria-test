@@ -1,13 +1,11 @@
 package taffah.enset.billingservice.controllers;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-import taffah.enset.billingservice.repositories.WalletRepository;
+import taffah.enset.billingservice.repositories.TransferRepository;
 
 @RestController
 class WalletRestController {
-    private WalletRepository billRepository;
+    private TransferRepository billRepository;
 
     /*InventoryServiceClient inventoryServiceClient;
     @GetMapping("/bills/full/{id}")

@@ -4,22 +4,23 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import taffah.enset.billingservice.ennumerations.WalletEtat;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import java.util.Date;
 
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Client {
+public class Transfer {
     @Id
     private String id;
-    private String nom;
-    private String email;
-
-    @OneToOne
-    private Wallet wallet;
+    private Date created;
+    private String source;
+    private String destination;
+    private double montant;
+    private WalletEtat etat;
 }
