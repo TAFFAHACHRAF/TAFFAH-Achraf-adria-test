@@ -37,6 +37,15 @@ Provide an overview of the technical architecture of the project, including key 
 
 Information on how others can contribute to the project, including guidelines for reporting issues or submitting pull requests.
 
+## Tests
+
+![Config service](./config_code.png)
+![Config repo](./config_repo_code.png)
+![Euria service](./eurika_code.png)
+![Gateway service](./gateway_code.png)
+![Transfer service](./transfer_code.png)
+![Wallet service](./wallet_code.png)
+
 ## License
 
 Specify the project's license, along with any terms and conditions for using or modifying the project.
