@@ -29,7 +29,7 @@ Briefly describe the global architecture of the project and its components.
 
 ## Technical Architecture
 
-![Technical Architecture](./technical_architecture.png)
+![Technical Architecture](./techniqal_architecture.png)
 
 Provide an overview of the technical architecture of the project, including key technologies, frameworks, and the interaction between different components.
 
